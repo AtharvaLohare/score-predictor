@@ -6,7 +6,7 @@ from datetime import datetime
 LOG_FILE_NAME = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 # Creating the path for the directory that will store the log files.
 LOGS_PATH = os.path.join(os.getcwd(),"logs")
-os.makedir(LOGS_PATH, exist_ok=True)
+os.makedirs(LOGS_PATH, exist_ok=True)
 
 # Create the path for the current log file
 LOG_FILE_PATH = os.path.join(LOGS_PATH, LOG_FILE_NAME)

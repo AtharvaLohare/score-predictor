@@ -22,7 +22,7 @@ from src.utils import save_object, evaluate_models
 
 @dataclass
 class ModelTrainerConfig:
-    trainer_model_obj_path = os.path.join('artefacts', 'model.pkl')
+    trainer_model_obj_path = os.path.join('artifacts', 'model.pkl')
 
 class ModelTrainer:
     def __init__(self):

@@ -63,9 +63,3 @@ I wanted to learn how to connect machine learning with a web interface. I'm new 
 
 ---
 
-## Credits
-
-Thanks to the open-source community and various tutorials for inspiration!
-
----
-

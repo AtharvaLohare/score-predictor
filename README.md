@@ -9,35 +9,6 @@ This project predicts a student's math score based on their background and test 
 - Fill out a form on the website with info like gender, ethnicity, parental education, lunch type, test prep, reading and writing scores.
 - The app processes your input, runs it through a trained ML model, and shows you the predicted math score.
 
----
-
-## Setup & Usage
-
-1. **Clone the repo and set up the environment**
-    ```
-    git clone https://github.com/yourusername/student-exam-performance-predictor.git
-    cd student-exam-performance-predictor
-    python -m venv venv
-    source venv/bin/activate  # or venv\Scripts\activate on Windows
-    pip install -r requirements.txt
-    ```
-
-2. **Train the model**
-    - Run the scripts in `src/components/` to process the data and train the model.
-    - This will create `artifacts/model.pkl` and `artifacts/preprocessor.pkl`.
-
-3. **Start the Flask app**
-    ```
-    python app.py
-    ```
-    - Go to [http://localhost:5000](http://localhost:5000) in your browser.
-
----
-
-## Project Structure
-
-
----
 
 ## What's inside
 
